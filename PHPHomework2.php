@@ -1,8 +1,8 @@
 <?php 
 function A($a,$b,$c){
-    if($a==$b&&$b==$c){
+    if($a===$b&&$b===$c){
         echo "Равносторонний";
-    }else if($a==$b||$b==$c||$a==$c){
+    }else if($a===$b||$b===$c||$a===$c){
         echo "Равнобедренный";
     }else{
         echo "Разносторонний";  
